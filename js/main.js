@@ -3,26 +3,27 @@ layout: null
 ---
 $(document).ready(function () {
   $('a.blog-button').click(function (e) {    
-    if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
-    currentWidth = $('.panel-cover').width()
+    if ($('.panel-cover').hasClass('panel-cover--collapsed')) return;
+    currentWidth = $('.panel-cover').width();
     if (currentWidth < 960) {
       $('.panel-cover').addClass('panel-cover--collapsed')
-      $('.content-wrapper').addClass('animated slideInRight')      
+      $('.content-wrapper').addClass('animated slideInRight')
     } else {
       $('.panel-cover').css('max-width', currentWidth)
-      $('.panel-cover').animate({'max-width': '530px', 'width': '40%'}, 400, swing = 'swing', function () {
-        // Refresh the particles.js container
-        window.pJSDom[0].pJS.fn.particlesRefresh()
+      $('.panel-cover').animate({'max-width': '530px', 'width': '40%'}, 400, swing = 'swing', function () {        
+        updateAnimation();
       })      
     }    
   })
 
   if (window.location.hash && window.location.hash == '#blog') {
-    $('.panel-cover').addClass('panel-cover--collapsed')
+    $('.panel-cover').addClass('panel-cover--collapsed');
+    updateAnimation();
   }
 
   if (window.location.pathname !== '{{ site.baseurl }}' && window.location.pathname !== '{{ site.baseurl }}index.html') {
-    $('.panel-cover').addClass('panel-cover--collapsed')
+    $('.panel-cover').addClass('panel-cover--collapsed');
+    updateAnimation();
   }
 
   $('.btn-mobile-menu').click(function () {
@@ -35,4 +36,9 @@ $(document).ready(function () {
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
   })
 
-})
+});
+
+function updateAnimation(){
+  // Refresh the particles.js container
+  window.pJSDom[0].pJS.fn.particlesRefresh();
+}
