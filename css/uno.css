@@ -1058,6 +1058,7 @@ pre {
 			color: #b9301c; }
 
 .excerpt {
+	text-align: justify;
 	margin: 0;
 	font-size: .9em;
 	color: #999999; }
@@ -1136,6 +1137,8 @@ hr {
 
 .hidden {
 	display: none !important; }
+
+.post > p { text-align: justify; }
 
 .post-comments {
 	border-top: 1px solid #dddddd;
