@@ -55,3 +55,8 @@ pre.highlight code,
   border: 3px solid #fff;
   border-radius:100%;
 }
+
+.iframe-doc {
+  width: 100%;
+  height: 75vh;
+}
