@@ -4,7 +4,7 @@
 	 License: none (public domain)
 */
 @import url(animate.css);
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -13,7 +13,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article, aside, details, figcaption, figure, header, hgroup, menu, nav, section {
 	display: block; }
 
 body {
@@ -1104,22 +1104,6 @@ pre {
 .content-wrapper__inner {
 	margin: 0 10%;
 	padding: 50px 0; }
-
-.footer {
-	display: block;
-	padding: 2em 0 0 0;
-	border-top: 2px solid #dddddd;
-	font-size: .7em;
-	color: #b3b3b3; }
-
-.footer__copyright {
-	display: block;
-	margin-bottom: .7em; }
-	.footer__copyright a {
-		color: #a6a6a6;
-		text-decoration: underline; }
-		.footer__copyright a:hover {
-			color: #b9301c; }
 
 .avatar,
 .logo {
