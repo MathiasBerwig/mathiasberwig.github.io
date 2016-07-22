@@ -17,8 +17,8 @@ layout: default
     <ul> <!-- create the list of posts -->
       <!-- iterate through all the posts on the site --> 
       {% for post in site.posts %} 
-        <!-- list only those which contain the current tag --> 
-        {% if post.tags contains tagitem[0] %} 
+        <!-- list only those which contain the current tag in the active language --> 
+        {% if post.tags contains tagitem[0] and post.lang == site.active_lang %}
             <li>
               <a href="{{ post.url }}">{{ post.title }}</a>
             </li>

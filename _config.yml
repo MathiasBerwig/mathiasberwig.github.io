@@ -1,10 +1,14 @@
 # Site settings
 title: 'Code Sandbox'
-description: "Mathias Berwig's personal blog"
+description: 
+  en: "Mathias Berwig's personal site"
+  pt: "Site pessoal de Mathias Berwig"
 url: 'http://mathiasberwig.github.io'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
+languages: ['en', 'pt']
+default_lang: 'en'
 
 author:
   name: 'Mathias Berwig'
@@ -28,6 +32,7 @@ paginate: 10
 permalink: /:title/
 markdown: kramdown
 highlighter: rouge
+parallel_localization: false
 
 kramdown:
   # use Github Flavored Markdown
@@ -35,5 +40,48 @@ kramdown:
   # do not replace newlines by <br>s
   hard_wrap: false
 
-gems: ['jekyll-paginate']
+gems: ['jekyll-paginate', 'jekyll-polyglot']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+exclude_from_localization: ['js/particles.js', 'images', 'css', 'fonts']
+
+# Polyglot Translation
+t:
+  header_panel:
+    profile_photo_alt: 
+      en: My Profile Photo
+      pt: Minha foto de perfil
+    link_blog: 
+      en: Link to my blog
+      pt: Link para o meu blog
+    on_github:
+      en: on GitHub
+      pt: no GitHub
+    on_linkedin:
+      en: on LinkedIn
+      pt: no LinkedIn
+    on_facebook:
+      en: on Facebook
+      pt: no Facebook
+    on_twitter:
+      en: on Twitter
+      pt: no Twitter
+    subscribe:
+      en: Subscribe
+      pt: Assinar
+  pagination:
+    page:
+      en: Page
+      pt: Página
+    of:
+      en: of
+      pt: de
+    previous_page: 
+      en: ← Newer Posts
+      pt: ← Posts mais recentes
+    next_page:
+      en: Older Posts →
+      pt: Posts mais antigos →
+  post_meta:
+    tag_on:
+      en: 'on'
+      pt: em    

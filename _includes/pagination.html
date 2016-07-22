@@ -1,15 +1,36 @@
 <nav class="pagination" role="navigation">
+  <!-- Previous Page -->
   {% if paginator.previous_page %}
     {% if paginator.previous_page == 1 %}
-      <a rel="prev" class="posts newer btn small" href="{{ "#blog" | prepend: site.baseurl }}" title="Previous Page">← Newer Posts</a>
+      {% if site.active_lang == site.default_lang %}
+        <!-- Link for first page in default language  -->
+        <a rel="prev" class="posts newer btn small" href="{{ "#blog" | prepend: site.baseurl }}" title="Previous Page">{{ site.t.pagination.previous_page[site.active_lang] }}</a>
+      {% else %}
+        <!-- Link for first page in active language -->
+        <a rel="prev" class="posts newer btn small" href="{{ site.baseurl }}{{ site.active_lang }}/#blog" title="Previous Page">{{ site.t.pagination.previous_page[site.active_lang] }}</a>
+      {% endif %}
     {% else %}
-      <a rel="prev" class="posts newer btn small" href="{{ site.baseurl }}page{{ paginator.previous_page }}/">← Newer Posts</a>
+      {% if site.active_lang == site.default_lang %}
+        <!-- Link for previous page in default language -->
+        <a rel="prev" class="posts newer btn small" href="{{ site.baseurl }}page{{ paginator.previous_page }}/">{{ site.t.pagination.previous_page[site.active_lang] }}</a>
+      {% else %}
+        <!-- Link for previous page in active language -->
+        <a rel="prev" class="posts newer btn small" href="{{ site.baseurl }}{{ site.active_lang }}/page{{ paginator.previous_page }}/">{{ site.t.pagination.previous_page[site.active_lang] }}</a>
+      {% endif %}
     {% endif %}
   {% endif %}
 
-  <span class="pagination__page-number">Page {{ paginator.page}} of {{ paginator.total_pages}}</span>
+  <!-- Page x of xx -->
+  <span class="pagination__page-number">{{ site.t.pagination.page[site.active_lang] }} {{ paginator.page}} {{ site.t.pagination.of[site.active_lang] }} {{ paginator.total_pages}}</span>
 
-  {% if paginator.next_page %}
-    <a rel="next" class="posts older btn small" href="{{ site.baseurl }}page{{ paginator.next_page }}/">Older Posts →</a>
+  <!-- Next Page -->
+  {% if paginator.next_page %}    
+    {% if site.active_lang == site.default_lang %}
+      <!-- Link for default language -->
+      <a rel="next" class="posts older btn small" href="{{ site.baseurl }}page{{ paginator.next_page }}/">{{ site.t.pagination.next_page[site.active_lang] }}</a>
+    {% else %}
+      <!-- Link for active language -->
+      <a rel="next" class="posts older btn small" href="{{ site.baseurl }}{{ site.active_lang }}/page{{ paginator.next_page }}/">{{ site.t.pagination.next_page[site.active_lang] }}</a>
+    {% endif %}
   {% endif %}
 </nav>
