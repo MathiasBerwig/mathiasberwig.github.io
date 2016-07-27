@@ -26,11 +26,13 @@
         <div class="navigation-wrapper">
           <nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
+              <!-- Blog link -->
               <li class="navigation__item">
                 {% if site.active_lang == site.default_lang %}
-                <a href="{{ site.baseurl }}#blog" title="{{ site.t.header_panel.link_blog[site.active_lang] }}" class="blog-button">Blog</a></li>
+                <a href="{{ site.baseurl }}blog" title="{{ site.t.header_panel.link_blog[site.active_lang] }}" class="blog-button">Blog</a></li>
                 {% else %}
-                <a href="{{ site.baseurl }}{{ site.active_lang }}/#blog" title="{{ site.t.header_panel.link_blog[site.active_lang] }}" class="blog-button">Blog</a></li>
+                <a href="{{ site.baseurl }}{{ site.active_lang }}/blog/" title="{{ site.t.header_panel.link_blog[site.active_lang] }}" class="blog-button">Blog</a></li>
+                {% endif %}
                 {% endif %}
             </ul>
           </nav>
