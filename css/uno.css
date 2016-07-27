@@ -1258,9 +1258,6 @@ hr {
 .cover-navigation {
 	margin-top: 10px; }
 
-.cover-navigation--social {
-	margin-left: 30px; }
-
 .cover-green {
 	background-color: rgba(21, 111, 120, 0.6);
 	background-image: -webkit-linear-gradient(-410deg, rgba(21, 111, 120, 0.6) 20%, rgba(6, 31, 33, 0.8));
@@ -1366,15 +1363,13 @@ nav {
 			border-color: #FFF;
 			opacity: 1; }
 
-.navigation--social {
-	margin-left: 1.5em; }
-	.navigation--social a {
-		padding: 6px 8px 6px 9px; }
-		.navigation--social a .label {
-			display: none; }
-		.navigation--social a .icon {
-			display: block;
-			font-size: 1.7em; }
+.navigation--social a {
+	padding: 6px 8px 6px 9px; }
+	.navigation--social a .label {
+		display: none; }
+	.navigation--social a .icon {
+		display: block;
+		font-size: 1.7em; }
 
 .pagination {
 	display: block;
@@ -1619,18 +1614,17 @@ input[type="tel"] {
 		position: relative;
 		float: left;
 		clear: left;
-		width: 100%; }
+		width: 100%;
+		padding-top: 5px; }
 		.cover-navigation .navigation {
 			display: block;
 			width: 100%; }
 			.cover-navigation .navigation li {
-				width: 80%;
-				margin-bottom: .4em; }
-		.cover-navigation.navigation--social {
-			padding-top: 5px; }
+				width: 50%; }		
 			.cover-navigation.navigation--social .navigation li {
 				display: inline-block;
-				width: 25.8%; }
+				width: 5%;
+				min-width: 2.5em; }
 
 	.content-wrapper {
 		width: 80%;
@@ -1644,7 +1638,14 @@ input[type="tel"] {
 	.navigation__item {
 		width: 100%;
 		margin: 0 0 .4em 0; } }
+@media all and (max-width: 540px) {
+	.cover-navigation .navigation li {
+		width: 80%; }
+}
 @media all and (max-width: 340px) {
+	.cover-navigation {
+		padding-top: 0;	}
+
 	.panel-main__inner {
 		padding: 0 5%; }
 

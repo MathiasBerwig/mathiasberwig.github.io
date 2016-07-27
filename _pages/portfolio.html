@@ -1,0 +1,22 @@
+---
+layout: default
+title: Portfolio
+custom_css: portfolio
+permalink: /portfolio/
+---
+<h1>Portfolio</h1>
+
+<div class="container">
+    <div class="cards">
+    {% for page in site.pages %}
+        {% if page.type == "work" and page.lang == site.active_lang %}
+        <div class="card">
+            <h2>{{ page.title }}</h2>
+            <a><img src="{{ page.image }}"/></a>
+            <p>{{ page.description }}</p>
+            <div class="btn-more"><a href="{{ page.permalink }}">{{ site.t.portfolio.btn_more[site.active_lang] }}</a></div>
+        </div>    
+        {% endif %}
+    {% endfor %}
+    </div>
+</div>

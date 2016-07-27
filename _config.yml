@@ -26,10 +26,15 @@ defaults:
       type: posts
     values:
         layout: post
+  - scope:
+      path: _works
+    values:
+      layout: portfolio-item
+      type: work
 
 # Build settings
 gems: ['jekyll-paginate', 'jekyll-polyglot']
-include: ['_pages']
+include: ['_pages', '_works']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
 exclude_from_localization: ['js/particles.js', 'images', 'css', 'fonts']
 destination: _site
@@ -57,6 +62,9 @@ t:
     link_blog: 
       en: Link to my blog
       pt: Link para o meu blog
+    link_portfolio:
+      en: Link to my portfolio
+      pt: Link para o meu portfolio
     on_github:
       en: on GitHub
       pt: no GitHub
@@ -88,4 +96,8 @@ t:
   post_meta:
     tag_on:
       en: 'on'
-      pt: em    
+      pt: em
+  portfolio:
+    btn_more:
+      en: MORE
+      pt: MAIS

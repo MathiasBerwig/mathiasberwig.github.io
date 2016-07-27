@@ -33,6 +33,12 @@
                 {% else %}
                 <a href="{{ site.baseurl }}{{ site.active_lang }}/blog/" title="{{ site.t.header_panel.link_blog[site.active_lang] }}" class="blog-button">Blog</a></li>
                 {% endif %}
+              <!-- Portfolio link -->
+              <li class="navigation__item">                
+                {% if site.active_lang == site.default_lang %}
+                <a href="{{ site.baseurl }}portfolio" title="{{ site.t.header_panel.link_portfolio[site.active_lang] }}" class="portfolio-button">Portfolio</a></li>
+                {% else %}
+                <a href="{{ site.baseurl }}{{ site.active_lang }}/portfolio/" title="{{ site.t.header_panel.link_portfolio[site.active_lang] }}" class="portfolio-button">Portfolio</a></li>
                 {% endif %}
             </ul>
           </nav>
