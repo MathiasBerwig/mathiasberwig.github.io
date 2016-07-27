@@ -10,6 +10,7 @@ baseurl: '/'
 languages: ['en', 'pt']
 default_lang: 'en'
 
+# Author info
 author:
   name: 'Mathias Berwig'
   email: mathiasberwig@gmail.com
@@ -18,31 +19,33 @@ author:
   github_username:  mathiasberwig
   linkedin_username:  mathiasberwig
 
+# Folder scopes
 defaults:
-  -
-    scope:
-      path: ''
-      type: 'posts'
+  - scope:
+      path: _posts
+      type: posts
     values:
-        layout: 'post'
+        layout: post
 
 # Build settings
+gems: ['jekyll-paginate', 'jekyll-polyglot']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+exclude_from_localization: ['js/particles.js', 'images', 'css', 'fonts']
 destination: _site
-paginate: 10
 permalink: /:title/
-markdown: kramdown
+paginate: 10
+paginate_path: '/blog/page:num/'
 highlighter: rouge
 parallel_localization: false
 
+# Markdown settings
+markdown: kramdown
 kramdown:
   # use Github Flavored Markdown
   input: GFM
   # do not replace newlines by <br>s
   hard_wrap: false
 
-gems: ['jekyll-paginate', 'jekyll-polyglot']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
-exclude_from_localization: ['js/particles.js', 'images', 'css', 'fonts']
 
 # Polyglot Translation
 t:
