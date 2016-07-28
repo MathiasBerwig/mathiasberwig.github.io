@@ -12,8 +12,8 @@ permalink: /portfolio/
         {% if page.type == "work" and page.lang == site.active_lang %}
         <div class="card">
             <h2>{{ page.title }}</h2>
-            <a><img src="{{ page.image }}"/></a>
-            <p>{{ page.description }}</p>
+            <img src="{{ page.image }}"/>
+            <p class="excerpt">{{ page.description }}</p>
             <div class="btn-more"><a href="{{ page.permalink }}">{{ site.t.portfolio.btn_more[site.active_lang] }}</a></div>
         </div>    
         {% endif %}
