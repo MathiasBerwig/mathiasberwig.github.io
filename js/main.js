@@ -1,9 +1,7 @@
 ---
 layout: null
 ---
-$(document).ready(function() {
-  updateFooterPos();
-
+$(document).ready(function() {  
   // Collapse the panel when not in / (or its language variations)
   if (window.location.pathname !== '{{ site.baseurl }}' && window.location.pathname !== '{{ site.baseurl }}' + site_active_lang + '/') {
       $('.panel-cover').addClass('panel-cover--collapsed');
@@ -26,6 +24,8 @@ $(document).ready(function() {
   $( window ).resize(function() {
     updateFooterPos();
   });
+
+  updateFooterPos();  
 });
 
 function updateAnimation() {
@@ -34,6 +34,6 @@ function updateAnimation() {
 }
 
 function updateFooterPos() {
-  // Check if the window does have a scroll bar
+  // Check if the window does have a scroll bar then swap the footer position according to window size (relative or absolute)
   document.body.scrollHeight > document.body.clientHeight ? $('.footer').css('position', 'relative') : $('.footer').css('position', 'absolute');
 }
