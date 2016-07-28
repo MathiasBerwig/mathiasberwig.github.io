@@ -29,7 +29,7 @@ defaults:
   - scope:
       path: _works
     values:
-      layout: portfolio-item
+      layout: page
       type: work
 
 # Build settings
