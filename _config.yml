@@ -55,6 +55,10 @@ kramdown:
 
 # Polyglot Translation
 t:
+  general:
+    and:
+      en: and
+      pt: e
   header_panel:
     profile_photo_alt: 
       en: My Profile Photo
@@ -80,6 +84,19 @@ t:
     subscribe:
       en: Subscribe
       pt: Assinar
+  footer:
+    based_on:
+      en: Based on
+      pt: Baseado em
+    built_with:
+      en: Built with  
+      pt: Construído com 
+    and_hatchet:
+      en: and an hatchet
+      pt: e um machado
+    link_about:
+      en: About
+      pt: Sobre
   pagination:
     page:
       en: Page
