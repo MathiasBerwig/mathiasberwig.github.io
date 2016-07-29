@@ -25,7 +25,18 @@ $(document).ready(function() {
     updateFooterPos();
   });
 
-  updateFooterPos();  
+  updateFooterPos();
+
+  // Initializes the headroom lib
+  $(".headroom").headroom({
+    "offset": 205,
+    "tolerance": 5,
+    "classes": {
+      "initial": "animated",
+      "pinned": "slideDown",
+      "unpinned": "slideUp"
+    }
+  });
 });
 
 function updateAnimation() {
