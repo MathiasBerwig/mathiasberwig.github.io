@@ -13,6 +13,7 @@ default_lang: 'en'
 # Author info
 author:
   name: 'Mathias Berwig'
+  birthday: 1996-02-10
   email: mathiasberwig@gmail.com
 #  twitter_username: mathiasberwig
   facebook_username: MathiasBerwig
