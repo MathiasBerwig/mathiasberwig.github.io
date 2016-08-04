@@ -9,10 +9,17 @@ layout: default
     {% for page in site.pages %}
         {% if page.type == "work" and page.lang == site.active_lang %}
         <div class="card">
-            <h2>{{ page.title }}</h2>
-            <img src="{{ page.image }}"/>
+            <h3>{{ page.title }}</h3>
+            <img src="{{ page.preview_image }}"/>
             <p class="excerpt">{{ page.description }}</p>
-            <div class="btn-more"><a href="{{ page.permalink }}">{{ site.t.portfolio.btn_more[site.active_lang] }}</a></div>
+            <div class="btn-more">
+                {% if site.active_lang == site.default_lang %}
+                <a href="{{ page.permalink }}">
+                {% else %}
+                <a href="{{ site.baseurl }}{{ site.active_lang }}{{ page.permalink }}">
+                {% endif %}
+                {{ site.t.portfolio.btn_more[site.active_lang] }}</a>
+            </div>
         </div>    
         {% endif %}
     {% endfor %}

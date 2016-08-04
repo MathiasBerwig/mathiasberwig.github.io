@@ -77,7 +77,7 @@
     }
 }
 
-.card > h2, .btn-more {
+.card > h3, .btn-more {
     margin-top: .2em;
 }
 
