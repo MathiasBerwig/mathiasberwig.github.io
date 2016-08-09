@@ -3,7 +3,7 @@ layout: null
 ---
 $(document).ready(function() {  
   // Collapse the panel when not in / (or its language variations)
-  if (window.location.pathname !== '{{ site.baseurl }}' && window.location.pathname !== '{{ site.baseurl }}' + site_active_lang + '/') {
+  if (!isBaseUrl()) {
       $('.panel-cover').addClass('panel-cover--collapsed');
       updateAnimation();
   }
@@ -22,10 +22,10 @@ $(document).ready(function() {
 
   // Window resize
   $( window ).resize(function() {
-    updateFooterPos();
+    windowResize();
   });
 
-  updateFooterPos();
+  windowResize();
 
   // Initializes the headroom lib
   $(".headroom").headroom({
@@ -44,7 +44,18 @@ function updateAnimation() {
   window.pJSDom[0].pJS.fn.particlesRefresh();
 }
 
-function updateFooterPos() {
+function windowResize() {
   // Check if the window does have a scroll bar then swap the footer position according to window size (relative or absolute)
   document.body.scrollHeight > document.body.clientHeight ? $('.footer').css('position', 'relative') : $('.footer').css('position', 'absolute');
+
+  // Show/hide the language navigation items according to URL and body size
+  if (isBaseUrl() || window.matchMedia('(min-height: 530px)').matches && !$('.btn-mobile-menu').is(':visible')) {
+    $('.navigation--lang').show();
+  } else {
+    $('.navigation--lang').hide();
+  }
+}
+
+function isBaseUrl() {
+  return !(window.location.pathname !== '{{ site.baseurl }}/' && window.location.pathname !== '{{ site.baseurl }}/pt/');
 }

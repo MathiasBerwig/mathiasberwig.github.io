@@ -1,22 +1,19 @@
 <footer class="footer">
-  <span class="footer__copyright">{{ site.t.footer.based_on[site.active_lang] }} <a href="https://github.com/joshgerdes/jekyll-uno/" target="_blank">Jekyll-Uno</a>. {{ site.t.footer.built_with[site.active_lang] }} <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, <a href="https://github.com/untra/polyglot" target="_blank">polyglot</a>, <a href="http://wicky.nillia.ms/headroom.js">headroom.js</a>, <a href="https://github.com/VincentGarreau/particles.js/" target="_blank">particles.js</a> {{ site.t.footer.and_hatchet[site.active_lang] }}. 
-	{% if site.active_lang == site.default_lang %}
-	<a href="{{ site.baseurl }}about/">{{ site.t.footer.link_about[site.active_lang] }}</a>.</span>    
-    {% else %}
-    <a href="{{ site.baseurl }}{{ site.active_lang }}/about/">{{ site.t.footer.link_about[site.active_lang] }}</a>.</span>    
-    {% endif %}  
+  <!-- Here be dragons -->
+  <span class="footer__copyright">{{ site.t.footer.based_on[site.active_lang] }} <a href="https://github.com/joshgerdes/jekyll-uno/" target="_blank">Jekyll-Uno</a>. {{ site.t.footer.built_with[site.active_lang] }} <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, <a href="https://github.com/untra/polyglot" target="_blank">polyglot</a>, <a href="http://wicky.nillia.ms/headroom.js">headroom.js</a>, <a href="https://github.com/VincentGarreau/particles.js/" target="_blank">particles.js</a> {{ site.t.footer.and_hatchet[site.active_lang] }}.
+	<a href="{{ site.baseurl }}/about/">{{ site.t.footer.link_about[site.active_lang] }}</a>.</span>
 </footer>
 
 <!-- Add main.js -->
-<script type="text/javascript" src="{{ "js/main.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/main.js""></script>
 
 <!-- Add particles.js and lib -->
-<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<script type="text/javascript" src="{{ "js/particles.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/particles.js"></script>
 
 <!-- Add Headroom -->
-<script src="https://npmcdn.com/headroom.js@0.9.3/dist/headroom.min.js"></script>
-<script src="https://npmcdn.com/headroom.js@0.9.3/dist/jQuery.headroom.min.js"></script>
+<script type="text/javascript" src="https://npmcdn.com/headroom.js@0.9.3/dist/headroom.min.js"></script>
+<script type="text/javascript" src="https://npmcdn.com/headroom.js@0.9.3/dist/jQuery.headroom.min.js"></script>
 
 {% if site.google_analytics %}
 <script>

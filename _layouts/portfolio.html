@@ -13,12 +13,7 @@ layout: default
             <img src="{{ page.preview_image }}"/>
             <p class="excerpt">{{ page.description }}</p>
             <div class="btn-more">
-                {% if site.active_lang == site.default_lang %}
-                <a href="{{ page.permalink }}">
-                {% else %}
-                <a href="{{ site.baseurl }}{{ site.active_lang }}{{ page.permalink }}">
-                {% endif %}
-                {{ site.t.portfolio.btn_more[site.active_lang] }}</a>
+                <a href="{{ page.permalink }}">{{ site.t.portfolio.btn_more[site.active_lang] }}</a>
             </div>
         </div>    
         {% endif %}

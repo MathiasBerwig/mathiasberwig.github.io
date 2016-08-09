@@ -631,6 +631,15 @@ nav {
     font-size: 1.7em;
 }
 
+.navigation--lang {
+    position: absolute;
+    display: inline-block;
+    bottom: 2em;
+    width: 100%;
+    left: 0;
+    margin: 0 auto;
+}
+
 .pagination {
     display: block;
     margin: 0 0 4em 0;
