@@ -1,0 +1,99 @@
+.container {
+    width: 100%;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.cards {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: -1.5%;
+}
+
+@media (max-width: 1100px) {
+    .cards {
+        margin-bottom: -4%;
+    }
+}
+
+.card {
+    background: #fefff9;
+    color: #363636;
+    display: block;
+    -webkit-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+    -webkit-backface-visibility: hidden;
+    background: #fff;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.65);
+    border-radius: 0em;
+    padding: 1em;
+    margin-bottom: 1.5%;
+    position: relative;
+}
+
+@media all and (max-width: 1100px) {
+    .card {
+        width: 98%;
+        margin-bottom: 4%;
+    }
+}
+
+@media all and (min-width: 1100px) {
+    .card {
+        width: 43%;
+    }
+}
+
+@media all and (min-width: 1600px) {
+    .card {
+        width: 26.5%;
+    }
+}
+
+@media all and (max-width: 540px) {
+    .card {
+        width: 110%;
+        margin-left: -5%;
+        margin-right: -5%;
+    }
+}
+
+.card > h3, .btn-more {
+    margin-top: .2em;
+}
+
+.card > p {
+  margin-top: 0.5em;
+  margin-bottom: 2.3em;
+}
+
+.card img {
+    width: 100%;
+}
+
+.btn-more {
+    padding: 0.5em;    
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+}
