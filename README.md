@@ -1,11 +1,8 @@
-# jekyll-uno
+# mathiasberwig.github.io
 
-Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
+My personal blog/portfolio website. Its based on [Jekyll-Uno](https://github.com/joshgerdes/jekyll-uno/) and built with [GitHub Pages](https://pages.github.com/), [jekyll-polyglot](https://github.com/untra/polyglot), [headroom.js](http://wicky.nillia.ms/headroom.js), [particles.js](https://github.com/VincentGarreau/particles.js/) and an [hatchet](https://www.google.com.br/search?q=hatchet&tbm=isch).
 
-> :warning:
-  This theme requires ruby and rubygems installed
-
-### Features
+### Theme Features
 
 * Clean layout
 * Resposive layout
@@ -17,29 +14,23 @@ Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://g
 * Google Analytics integration
 * Disqus integration
 
----
+## My additions
 
-### Install and Test
-
-1. Download or clone repo `git clone git@github.com:joshgerdes/jekyll-uno.git`
-2. Enter the folder: `cd jekyll-uno/`
-3. If you don't have bundler installed: `gem install bundler`
-3. Install Ruby gems: `bundle install`
-4. Start Jekyll server: `jekyll serve`
-
-Access via: [http://localhost:4000/jekyll-uno](http://localhost:4000/jekyll-uno)
+* i18n support with jekyll-polyglot
+* Animated background for sidebar using particles.js
+* Header that reacts to user's scrool with headroom.js
+* Other minor adjustments to fit my needs
 
 ---
 
 ### Demo and Download
 
-[Demo](http://joshgerdes.com/jekyll-uno/)
-[Download](https://github.com/joshgerdes/jekyll-uno/archive/master.zip)
+[Demo](https://mathiasberwig.github.io)
 
-![jekyll-uno - free Jekyll theme](/screenshot.png)
+![mathiasberwig.github.io](/screenshot.png)
 
 ---
 
 ### Copyright and license
 
-It is under [the MIT license](/LICENSE).
+The original theme and my additions are under the [MIT license](/LICENSE). The contents of directories ``_posts``, ``_works`` and ``images`` are Copyright Mathias Berwig. You may not reuse anything therein without my permission.
