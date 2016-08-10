@@ -48,6 +48,7 @@
     border-radius: 0em;
     padding: 1em;
     margin-bottom: 1.5%;
+    position: relative;
 }
 
 @media all and (max-width: 1100px) {
@@ -83,6 +84,7 @@
 
 .card > p {
   margin-top: 0.5em;
+  margin-bottom: 2.3em;
 }
 
 .card img {
@@ -91,5 +93,7 @@
 
 .btn-more {
     padding: 0.5em;    
-    float: right;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
 }
