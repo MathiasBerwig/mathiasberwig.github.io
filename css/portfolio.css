@@ -82,6 +82,10 @@
     margin-top: .2em;
 }
 
+h3 > a {
+    color: inherit;
+}
+
 .card > p {
   margin-top: 0.5em;
   margin-bottom: 2.3em;
