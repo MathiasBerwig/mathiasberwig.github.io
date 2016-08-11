@@ -267,19 +267,18 @@ pre code {
 .content-wrapper {
     z-index: 800;
     margin-left: 40%;
+    display: flex;
+    min-height: 100%;
+    flex-direction: column; 
 }
 
 .content-wrapper__inner {
     margin: 0 10%;
     padding: 50px 0;
+    flex: 1;
 }
 
 .footer {
-    position: absolute;
-    width: 60%;
-    margin-left: 40%;
-    bottom: 0px;
-    display: block;
     padding: 2em 0 1em 0;
     border-top: 2px solid #dddddd;
     font-size: .7em;
@@ -763,14 +762,8 @@ input[type="text"]:-ms-input-placeholder, input[type="password"]:-ms-input-place
 }
 
 @media all and (min-width: 1300px) {
-    .content-wrapper, .footer {
+    .content-wrapper {
         margin-left: 530px;
-    }
-    .footer {
-        width: -moz-calc(100% - 530px);
-        width: -webkit-calc(100% - 530px);
-        width: -o-calc(100% - 530px);
-        width: calc(100% - 530px);
     }
 }
 
@@ -880,7 +873,7 @@ input[type="text"]:-ms-input-placeholder, input[type="password"]:-ms-input-place
         min-width: 2.5em;
     }
     .content-wrapper {
-        width: 80%;
+        width: 80vw;
         max-width: none;
         margin: 0 auto;
     }
@@ -893,9 +886,9 @@ input[type="text"]:-ms-input-placeholder, input[type="password"]:-ms-input-place
         margin: 0 0 .4em 0;
     }
     .footer {
-        position: relative;
-        margin: 0;
-        width: 100%;
+        margin: 0 -10vw 0 -10vw;
+        width: 100vw;
+        left: 0;
     }
     .headroom {
         position: fixed;
