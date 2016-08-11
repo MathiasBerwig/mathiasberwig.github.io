@@ -12,4 +12,4 @@ Meu nome é Mathias Berwig, tenho {{ today | minus: birthday | divided_by: secon
 
 Eu posso te ajudar com projetos de desenvolvimento de aplicativos Android – principalmente – ou multiplataforma. Tenho conhecimento e alguma experiência com: Java, C#, Object Pascal, HTML, CSS, Javascript e Jekyll. Meu objetivo como desenvolvedor é construir soluções práticas com interface funcional, bonita e responsiva, aliando excelente experiência de usuário ao melhor desempenho possível. Você pode ver alguns de meus trabalhos em meu [portfolio](/pt/portfolio/) ou no meu perfil do [GitHub](https://github.com/MathiasBerwig).
 
-Estou sempre buscando boas oportunidades para trabalhar com pessoas inteligentes em projetos inovadores. Entre em [contato](/pt/contact/).
+Estou sempre buscando boas oportunidades para trabalhar com pessoas inteligentes em projetos inovadores. Entre em [contato](/contact/).
