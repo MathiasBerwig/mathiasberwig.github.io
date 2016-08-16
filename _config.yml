@@ -66,9 +66,6 @@ t:
     link_blog: 
       en: Link to my blog
       pt: Link para o meu blog
-    link_portfolio:
-      en: Link to my portfolio
-      pt: Link para o meu portfolio
     on_github:
       en: on GitHub
       pt: no GitHub
