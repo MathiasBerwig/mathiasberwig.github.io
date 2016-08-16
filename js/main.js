@@ -14,12 +14,6 @@ $(document).ready(function() {
       $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn');
   });
 
-  // OnClick for btn close navigation on mobile
-  $('.navigation-wrapper .blog-button').click(function() {
-      $('.navigation-wrapper').toggleClass('visible');
-      $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn');
-  });
-
   // Window resize
   $( window ).resize(function() {
     windowResize();

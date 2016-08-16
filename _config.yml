@@ -63,9 +63,12 @@ t:
     profile_photo_alt: 
       en: My Profile Photo
       pt: Minha foto de perfil
-    link_blog: 
-      en: Link to my blog
-      pt: Link para o meu blog
+    blog: 
+      en: Blog
+      pt: Blog
+    about:
+      en: About
+      pt: Sobre
     on_github:
       en: on GitHub
       pt: no GitHub
@@ -91,9 +94,6 @@ t:
     and_hatchet:
       en: and an hatchet
       pt: e um machado
-    link_about:
-      en: About
-      pt: Sobre
   pagination:
     page:
       en: Page

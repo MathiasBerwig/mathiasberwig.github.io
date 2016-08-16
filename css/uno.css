@@ -585,6 +585,10 @@ hr {
     color: #FFF;
 }
 
+.blog-button, .about-button {
+    width: 3.5em;
+}
+
 nav {
     display: inline-block;
     position: relative;
@@ -884,6 +888,9 @@ input[type="text"]:-ms-input-placeholder, input[type="password"]:-ms-input-place
     .navigation__item {
         width: 100%;
         margin: 0 0 .4em 0;
+    }
+    .blog-button, .about-button {
+        width: initial;
     }
     .footer {
         margin: 0 -10vw 0 -10vw;
