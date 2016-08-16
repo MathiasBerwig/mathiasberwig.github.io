@@ -320,7 +320,7 @@ hr {
     display: none !important;
 }
 
-.post > p {
+.post > p, .content-wrapper__inner > p {
     text-align: justify;
 }
 
