@@ -42,9 +42,6 @@ function updateAnimation() {
 }
 
 function windowResize() {
-  // Check if the window does have a scroll bar then swap the footer position according to window size (relative or absolute)
-  document.body.scrollHeight > document.body.clientHeight ? $('.footer').css('position', 'relative') : $('.footer').css('position', 'absolute');
-
   // Show/hide the language navigation items according to URL and body size
   if (isBaseUrl() || window.matchMedia('(min-height: 530px)').matches && !$('.btn-mobile-menu').is(':visible')) {
     $('.navigation--lang').show();

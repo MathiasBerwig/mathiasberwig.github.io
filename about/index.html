@@ -6,7 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="Content-Language" content="en"> 
   
-  <title>About</title>
+  <title>
+  
+    About
+  
+  </title>
   <meta name="description" content="Mathias Berwig's personal site">
   <meta name="author" content="Mathias Berwig">
   <meta name="HandheldFriendly" content="True">
@@ -47,6 +51,10 @@
   <link rel="stylesheet" href="/css/main.css">
 
   <!-- Add page-specific css -->
+  
+    
+  <link rel="stylesheet" href="/css/portfolio.css" media="screen" type="text/css">
+    
   
 
   <!-- Add jQuery -->
@@ -94,9 +102,9 @@
               <li class="navigation__item">
                 <a href="/blog" title="Link to my blog" class="blog-button">Blog</a>
               </li>
-              <!-- Portfolio link -->
+              <!-- About link -->
               <li class="navigation__item">                
-                <a href="/portfolio" title="Link to my portfolio" class="portfolio-button">Portfolio</a>
+                <a href="/about" title="" class="about-button">About</a>
               </li>
             </ul>
           </nav>
@@ -173,29 +181,78 @@
 
     <div class="content-wrapper">
       <div class="content-wrapper__inner">
-        <article class="post-container post-container--single">
-
-  <header class="post-header">
+        <header class="post-header">
     <h1 class="post-title">About</h1>
-  </header>
+</header>
 
-  <section class="post">
-    
 <p>My name is Mathias Berwig, I’m 20 years old and I’m the type of developer who cares to use the best practices to develop great products and services. I study Computer Science and work as programmer at <a href="http://www.unijui.edu.br">UNIJUÍ</a>, a university in the northwest of the state of Rio Grande do Sul (Brazil). I also work as a freelance developing softwares or as IT consultant.</p>
 
 <p>I can help you developing projects of Android applications – mainly – or multiplatform. I have knowledge and some experience with: Java, C#, Object Pascal, HTML, CSS, Javascript and Jekyll. My goal as a developer is to build practical solutions with functional, beautiful and responsive interfaces, combining excellent user experience at the best possible performance. You can see some of my work in my <a href="/portfolio/">portfolio</a> or in my <a href="https://github.com/MathiasBerwig">GitHub</a> profile.</p>
 
-<p>I’m always looking for good opportunities to work with great people on amazing projects. <a href="/contact/">Get in touch</a>.</p>
+<p>I’m always looking for good opportunities to work with great people on amazing projects. <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#109;&#097;&#116;&#104;&#105;&#097;&#115;&#098;&#101;&#114;&#119;&#105;&#103;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">Get in touch</a>.</p>
 
-  </section>
 
-</article>
-      </div>
+<header class="post-header">
+    <h2 class="post-title">Portfolio</h2>
+</header>
+<div class="container">
+    <div class="cards">
+    
+        
+    
+        
+        <div class="card">
+            <h3><a href="/portfolio/course-introduction-to-android-dev/">Course: Introduction to Android Dev</a></h3>
+            <img src="/images/portfolio/course-introduction-to-android-dev.jpg"/>
+            <p class="excerpt">A one night course about Android programming which I taught during the 2016 Computer Science academic week of UNIJUÍ.</p>
+            <div class="btn-more">
+                <a href="/portfolio/course-introduction-to-android-dev/">MORE</a>
+            </div>
+        </div>    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <div class="card">
+            <h3><a href="/portfolio/locutor-da-hora/">Locutor da Hora</a></h3>
+            <img src="/images/portfolio/locutor-da-hora.png"/>
+            <p class="excerpt">It's an award-winning educational app developed to help kids to practice their vocal abilities. It works as a radio studio simulator which allows users to create their own texts using macros (like date, time, city) to generate text according to their context.</p>
+            <div class="btn-more">
+                <a href="/portfolio/locutor-da-hora/">MORE</a>
+            </div>
+        </div>    
+        
+    
+        
+    
+        
+        <div class="card">
+            <h3><a href="/portfolio/rnberwig.com.br/">RN Berwig website</a></h3>
+            <img src="/images/portfolio/rnberwig.jpg"/>
+            <p class="excerpt">Website developed using Jekyll for RN Berwig company in August, 2016. Besides the creation of the site, this work involved the edition of the product photos and mail accounts migration.</p>
+            <div class="btn-more">
+                <a href="/portfolio/rnberwig.com.br/">MORE</a>
+            </div>
+        </div>    
+        
+    
+        
+    
+        
+    
     </div>
-    <footer class="footer">
+</div>
+      </div>
+      <footer class="footer">
   <!-- Here be dragons -->
-  <span class="footer__copyright">Based on <a href="https://github.com/joshgerdes/jekyll-uno/" target="_blank">Jekyll-Uno</a>. Built with <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, <a href="https://github.com/untra/polyglot" target="_blank">polyglot</a>, <a href="http://wicky.nillia.ms/headroom.js">headroom.js</a>, <a href="https://github.com/VincentGarreau/particles.js/" target="_blank">particles.js</a> and an hatchet.
-	<a href="/about/">About</a>.</span>
+  <span class="footer__copyright">Based on <a href="https://github.com/joshgerdes/jekyll-uno/" target="_blank">Jekyll-Uno</a>. Built with <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, <a href="https://github.com/untra/polyglot" target="_blank">polyglot</a>, <a href="http://wicky.nillia.ms/headroom.js">headroom.js</a>, <a href="https://github.com/VincentGarreau/particles.js/" target="_blank">particles.js</a> and an hatchet.</span>
 </footer>
 
 <!-- Add main.js -->
@@ -210,6 +267,7 @@
 <script type="text/javascript" src="https://npmcdn.com/headroom.js@0.9.3/dist/jQuery.headroom.min.js"></script>
 
 
+    </div>
     <script type="text/javascript">
       // Used in js/main.js to detect active language
       var site_active_lang = 'en';

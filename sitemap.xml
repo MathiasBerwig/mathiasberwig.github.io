@@ -49,24 +49,9 @@
   
     
     <url>
-      <loc>https://mathiasberwig.github.io/about/</loc>
-      
-        <lastmod>2016-08-10T15:26:15-03:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
       <loc>https://mathiasberwig.github.io/categories/</loc>
       
-        <lastmod>2016-08-10T15:26:15-03:00</lastmod>
+        <lastmod>2016-08-16T12:02:55-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -81,7 +66,7 @@
     <url>
       <loc>https://mathiasberwig.github.io/portfolio/course-introduction-to-android-dev/</loc>
       
-        <lastmod>2016-08-10T15:26:15-03:00</lastmod>
+        <lastmod>2016-08-16T12:02:55-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -96,7 +81,7 @@
     <url>
       <loc>https://mathiasberwig.github.io/feed.xml</loc>
       
-        <lastmod>2016-08-10T15:26:15-03:00</lastmod>
+        <lastmod>2016-08-16T12:02:55-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -111,7 +96,7 @@
     <url>
       <loc>https://mathiasberwig.github.io/blog/</loc>
       
-        <lastmod>2016-08-10T15:26:15-03:00</lastmod>
+        <lastmod>2016-08-16T12:02:55-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -126,7 +111,7 @@
     <url>
       <loc>https://mathiasberwig.github.io/</loc>
       
-        <lastmod>2016-08-10T15:26:15-03:00</lastmod>
+        <lastmod>2016-08-16T12:02:55-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -139,9 +124,9 @@
   
     
     <url>
-      <loc>https://mathiasberwig.github.io/portfolio/</loc>
+      <loc>https://mathiasberwig.github.io/about/</loc>
       
-        <lastmod>2016-08-10T15:26:15-03:00</lastmod>
+        <lastmod>2016-08-16T12:02:55-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -156,7 +141,7 @@
     <url>
       <loc>https://mathiasberwig.github.io/portfolio/locutor-da-hora/</loc>
       
-        <lastmod>2016-08-10T15:26:15-03:00</lastmod>
+        <lastmod>2016-08-16T12:02:55-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -171,7 +156,22 @@
     <url>
       <loc>https://mathiasberwig.github.io/js/main.js</loc>
       
-        <lastmod>2016-08-10T15:26:15-03:00</lastmod>
+        <lastmod>2016-08-16T12:02:55-03:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://mathiasberwig.github.io/portfolio/rnberwig.com.br/</loc>
+      
+        <lastmod>2016-08-16T12:02:55-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -188,7 +188,7 @@
     <url>
       <loc>https://mathiasberwig.github.io/tags/</loc>
       
-        <lastmod>2016-08-10T15:26:15-03:00</lastmod>
+        <lastmod>2016-08-16T12:02:55-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
