@@ -111,6 +111,9 @@ t:
     tag_on:
       en: 'on'
       pt: em
+    read_more:
+      en: Read more
+      pt: Ler mais
   portfolio:
     btn_more:
       en: MORE
