@@ -10,6 +10,6 @@ During the academic week of my university, I was invited to present an one night
 - Presentation: [Google Drive](https://drive.google.com/file/d/0B5RM3aJir_nXc2s1NlJ3ZVFqQ2s/view)
 - Sample app (note manager): [GitHub](https://github.com/MathiasBerwig/gerenciador-notas/)
 
-See above a preview of the presentation:
+See below a preview of the presentation:
 
 <iframe class="iframe-doc" src="https://docs.google.com/viewer?srcid=0B5RM3aJir_nXc2s1NlJ3ZVFqQ2s&pid=explorer&efh=false&a=v&chrome=false&embedded=true"></iframe>
