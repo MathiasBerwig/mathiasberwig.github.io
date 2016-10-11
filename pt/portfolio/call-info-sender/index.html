@@ -8,7 +8,7 @@
   
   <title>
   
-    Bem vindo ao Jekyll!
+    Call Info Sender
   
   </title>
   <meta name="description" content="Site pessoal de Mathias Berwig">
@@ -59,13 +59,13 @@
   <!-- Add page-specific js -->
   
 
-  <link rel="canonical" href="https://mathiasberwig.github.io/blog/2016-01-08-welcome-to-jekyll-2/">
+  <link rel="canonical" href="https://mathiasberwig.github.io/portfolio/call-info-sender/">
   <link rel="alternate" type="application/rss+xml" title="Code Sandbox" href="feed.xml">
-  <link rel="alternate" hreflang="en" href="https://mathiasberwig.github.io/blog/2016-01-08-welcome-to-jekyll-2/" />
+  <link rel="alternate" hreflang="en" href="https://mathiasberwig.github.io/portfolio/call-info-sender/" />
   
    
   
-  <link rel="alternate" hreflang="pt" href="https://mathiasberwig.github.io/pt/blog/2016-01-08-welcome-to-jekyll-2/" />
+  <link rel="alternate" hreflang="pt" href="https://mathiasberwig.github.io/pt/portfolio/call-info-sender/" />
   
 </head>
 
@@ -96,11 +96,11 @@
             <ul class="navigation">
               <!-- Blog link -->
               <li class="navigation__item">
-                <a href="/pt/blog" title="Link para o meu blog" class="blog-button">Blog</a>
+                <a href="/pt/blog" class="blog-button">Blog</a>
               </li>
               <!-- About link -->
               <li class="navigation__item">                
-                <a href="/pt/about" title="" class="about-button">About</a>
+                <a href="/pt/about" class="about-button">Sobre</a>
               </li>
             </ul>
           </nav>
@@ -163,9 +163,9 @@
         <!-- Language Selector -->
           <nav class="navigation--lang">
           
-            <a  href=" /blog/2016-01-08-welcome-to-jekyll-2/ ">en</a>  |             
+            <a  href=" /portfolio/call-info-sender/ ">en</a>  |             
           
-            <a style="font-weight: bold;" href=" /pt/blog/2016-01-08-welcome-to-jekyll-2/ ">pt</a>             
+            <a style="font-weight: bold;" href=" /pt/portfolio/call-info-sender/ ">pt</a>             
           
           </nav>      
       </div>      
@@ -178,40 +178,20 @@
     <div class="content-wrapper">
       <div class="content-wrapper__inner">
         <article class="post-container post-container--single">
+
   <header class="post-header">
-    <div class="post-meta">
-      <time datetime="8 Jan 2016" class="post-meta__date date">8 Jan 2016</time> &#8226; <span class="post-meta__tags">em 
-      <!-- list all tags for the post -->
-      
-      <a href="/pt/tags/#jekyll">jekyll</a>
-      </span>
-    </div>
-    <h1 class="post-title">Bem vindo ao Jekyll!</h1>
+    <h1 class="post-title">Call Info Sender</h1>
   </header>
 
   <section class="post">
-    <p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve --watch</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+    <p>O cliente, uma empresa Ucraniana, solicitou um aplicativo simples onde o usuário pudesse enviar as informações de chamadas recebidas para um arquivo online do Google Planilhas com um simples toque. Em uma tela de configuração, o usuáiro pode definir seu nome e número de telefone, que são armazenados nas <code class="highlighter-rouge">Shared Preferences</code> do sistema e posteriormente enviados com o restante dos dados. Após definir as informações pessoais, é possível adicionar 3 diferentes widgets à tela inicial do dispositivo. Um deles mostra o último número que ligou e um botão enviar; os outros dois são somente botões de enviar com tamanhos diferentes. Quando o dispositivo recebe uma ligação, um <code class="highlighter-rouge">BroadcastReceiver</code> é ativado e inicia um serviço em segundo plano, que armazena o número que ligou e a data e hora da ligação. A qualquer momento o usuário pode pressionar o botão Enviar de qualquer um dos widgets, e então o aplicativo vai enviar as informações para um formulário online do Google Docs, que insere os dados na planilha. O aplicativo está disponível nos idiomas Inglês, Ucraniano e Russo.</p>
 
-<p>To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention <code>YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<p><code>ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=&gt; prints 'Hi, Tom' to STDOUT.
-</code></p>
-
-<p>Check out the <a href="http://jekyllrb.com">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://github.com/jekyll/jekyll-help">Jekyll’s dedicated Help repository</a>.</p>
-
+<h3 id="capturas-de-tela">Capturas de Tela</h3>
+<p><img src="/images/portfolio/call-info-sender.png" alt="Captura de tela do aplicativo" /></p>
 
   </section>
-  
+
 </article>
-
-
       </div>
       <footer class="footer">
   <!-- Here be dragons -->

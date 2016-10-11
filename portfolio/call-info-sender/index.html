@@ -8,7 +8,7 @@
   
   <title>
   
-    Welcome to Jekyll!
+    Call Info Sender
   
   </title>
   <meta name="description" content="Mathias Berwig's personal site">
@@ -59,13 +59,13 @@
   <!-- Add page-specific js -->
   
 
-  <link rel="canonical" href="https://mathiasberwig.github.io/blog/2016-01-08-welcome-to-jekyll-3/">
+  <link rel="canonical" href="https://mathiasberwig.github.io/portfolio/call-info-sender/">
   <link rel="alternate" type="application/rss+xml" title="Code Sandbox" href="feed.xml">
-  <link rel="alternate" hreflang="en" href="https://mathiasberwig.github.io/blog/2016-01-08-welcome-to-jekyll-3/" />
+  <link rel="alternate" hreflang="en" href="https://mathiasberwig.github.io/portfolio/call-info-sender/" />
   
    
   
-  <link rel="alternate" hreflang="pt" href="https://mathiasberwig.github.io/pt/blog/2016-01-08-welcome-to-jekyll-3/" />
+  <link rel="alternate" hreflang="pt" href="https://mathiasberwig.github.io/pt/portfolio/call-info-sender/" />
   
 </head>
 
@@ -96,11 +96,11 @@
             <ul class="navigation">
               <!-- Blog link -->
               <li class="navigation__item">
-                <a href="/blog" title="Link to my blog" class="blog-button">Blog</a>
+                <a href="/blog" class="blog-button">Blog</a>
               </li>
               <!-- About link -->
               <li class="navigation__item">                
-                <a href="/about" title="" class="about-button">About</a>
+                <a href="/about" class="about-button">About</a>
               </li>
             </ul>
           </nav>
@@ -163,9 +163,9 @@
         <!-- Language Selector -->
           <nav class="navigation--lang">
           
-            <a style="font-weight: bold;" href=" /blog/2016-01-08-welcome-to-jekyll-3/ ">en</a>  |             
+            <a style="font-weight: bold;" href=" /portfolio/call-info-sender/ ">en</a>  |             
           
-            <a  href=" /pt/blog/2016-01-08-welcome-to-jekyll-3/ ">pt</a>             
+            <a  href=" /pt/portfolio/call-info-sender/ ">pt</a>             
           
           </nav>      
       </div>      
@@ -178,40 +178,20 @@
     <div class="content-wrapper">
       <div class="content-wrapper__inner">
         <article class="post-container post-container--single">
+
   <header class="post-header">
-    <div class="post-meta">
-      <time datetime="8 Jan 2016" class="post-meta__date date">8 Jan 2016</time> &#8226; <span class="post-meta__tags">on 
-      <!-- list all tags for the post -->
-      
-      <a href="/tags/#jekyll">jekyll</a>
-      </span>
-    </div>
-    <h1 class="post-title">Welcome to Jekyll!</h1>
+    <h1 class="post-title">Call Info Sender</h1>
   </header>
 
   <section class="post">
-    <p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve --watch</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+    <p>The client, an Ukranian company, requested a simple app where the user could send incoming call logs to an online Google Spreadsheet by just pressing a button. In a single screen activity, user can set his name and phone number, that are stored in <code class="highlighter-rouge">Android Shared Preferences</code>, and later sent among other data. After setting the personal info, three different widgets can be placed on home screen. One shows the last received call number and a send button; other two are just different sizes send buttons. When someone calls the device, a <code class="highlighter-rouge">BroadcastReceiver</code> is activated and starts a background service, which stores the number and date/time of the call. Anytime user can hit the Send button of any of the widgets and the app will submit the data to a Google Form, which will populate the Spreadsheet. The app is localized in English, Ukrainian and Russian languages.</p>
 
-<p>To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention <code>YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<p><code>ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=&gt; prints 'Hi, Tom' to STDOUT.
-</code></p>
-
-<p>Check out the <a href="http://jekyllrb.com">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://github.com/jekyll/jekyll-help">Jekyll’s dedicated Help repository</a>.</p>
-
+<h3 id="screenshots">Screenshots</h3>
+<p><img src="/images/portfolio/call-info-sender.png" alt="Captura de tela do aplicativo" /></p>
 
   </section>
-  
+
 </article>
-
-
       </div>
       <footer class="footer">
   <!-- Here be dragons -->

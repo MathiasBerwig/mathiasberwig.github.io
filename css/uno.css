@@ -320,7 +320,7 @@ hr {
     display: none !important;
 }
 
-.post > p {
+.post > p, .content-wrapper__inner > p {
     text-align: justify;
 }
 
@@ -884,6 +884,9 @@ input[type="text"]:-ms-input-placeholder, input[type="password"]:-ms-input-place
     .navigation__item {
         width: 100%;
         margin: 0 0 .4em 0;
+    }
+    .blog-button, .about-button {
+        width: initial;
     }
     .footer {
         margin: 0 -10vw 0 -10vw;
