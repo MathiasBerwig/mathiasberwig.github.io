@@ -35,7 +35,7 @@ defaults:
 # Build settings
 gems: ['jekyll-paginate', 'jekyll-polyglot']
 include: ['_pages', '_works']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png', 'deploy.sh']
 exclude_from_localization: ['js/particles.js', 'images', 'css', 'fonts']
 destination: _site
 permalink: /:title/
