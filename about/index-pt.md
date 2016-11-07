@@ -17,5 +17,38 @@ Eu posso te ajudar com projetos de desenvolvimento de aplicativos Android ou mul
 
 Você pode ver alguns de meus trabalhos abaixo, em meu [portfolio](#portfolio) ou no meu perfil do [GitHub](https://github.com/MathiasBerwig). Estou sempre buscando boas oportunidades para trabalhar com pessoas inteligentes em projetos inovadores. Entre em [contato](mailto:{{ site.author.email }}). Aproveite para ver o meu currículo logo abaixo.
 
+## Experiência
+
+#### Universidade Regional do Noroeste do Estado do Rio Grande do Sul
+
+##### **Programador de TI · 03/2015 – Presente** (1+ ano)
+
+Eu trabalho criando soluções mobile utilizando a linguagem de programação Java e tecnologias de código aberto. Minhas atividades incluem analisar e sugerir funcionalidades para aplicações novas e existentes; implementar serviços baseados em SQLite, MySQL, DB2, web services REST e Google Cloud Platform. Eu também projeto interfaces de aplicativos para dispositivos móveis.
+
+##### **Programador de TI Estagiário · 05/2014 – 03/2015** (10 meses)
+
+Eu estava encarregado de analisar e monitorar o funcionamento dos sistemas da universidade, efetuando manutenção e desenvolvimento de aplicações e relatórios em linguagem Object Pascal com Delphi 7 e QuickReports.
+
+## Habilidades
+
+- **Java** (proficiente), **C#** (intermediário), **Object Pascal** (experiência anterior porém desatualizado), **HTML** (intermediário), **CSS** (intermediário), **Javascript** (básico) e **PHP** (básico).
+- **Android** (proficiente), **Jekyll** (suficiente pra criar este blog), **web services REST** (alguma experiência criando e gerenciando) e **Google Cloud Platform** (integração de APIs com mobile).
+- MVC, desenvolvimento de apps e websites móveis.
+
+## Idiomas
+
+**Inglês** (B2, intermediário-avançado) e **Português** (nativo).
+
+## Educação
+
+#### Universidade Regional do Noroeste do Estado do Rio Grande do Sul
+
+#### **Bacharel em Ciência da Computação**
+
+- Conclusão prevista: Julho de 2018
+- Média aritmética de 84/100
+- 4 prêmios por projetos de extensão (veja [Locutor da Hora](/portfolio/locutor-da-hora/))
+- Apresentador de semana acadêmica (veja [Android Course](/portfolio/course-introduction-to-android-dev/))
+
 ## Portfolio
 {% include portfolio.html %}
