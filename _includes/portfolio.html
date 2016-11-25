@@ -3,7 +3,7 @@
     {% for page in site.pages %}
         {% if page.type == "work" and page.lang == site.active_lang %}
         <div class="card">
-            <h3><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
+            <h3><a href="{{ page.permalink }}"> {% if page.featured %}<i class="icon icon-star"></i> {% endif %}{{ page.title }}</a></h3>
             <img src="{{ page.preview_image }}"/>
             <p class="excerpt">{{ page.description }}</p>
             <div class="btn-more">

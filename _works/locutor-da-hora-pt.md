@@ -1,6 +1,7 @@
 ---
 title: Locutor da Hora
 lang: pt
+featured: true
 permalink: /portfolio/locutor-da-hora/
 custom_css: grid-gallery
 preview_image: /images/portfolio/locutor-da-hora.png

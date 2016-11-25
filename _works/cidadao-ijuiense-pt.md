@@ -1,6 +1,7 @@
 ---
 title: Cidadão Ijuiense
 lang: pt
+featured: true
 permalink: /portfolio/cidadao-ijuiense/
 preview_image: /images/portfolio/cidadao-ijuiense.png
 description: App Android vencedor do Hackathon no Espaço Open Tech da ExpoIjuí Fenadi 2016. Permite que o usuário envie solicitações diretamente ao Poder Público, de modo a agilizar o atendimento dessas ocorrências. 
