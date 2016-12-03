@@ -89,3 +89,7 @@ h3 > a {
     bottom: 1em;
     right: 1em;
 }
+
+i {
+    font-size: inherit;
+}
