@@ -1,7 +1,7 @@
 ---
 title: Cidadão Ijuiense
 lang: en
-featured: true
+featured: false
 permalink: /portfolio/cidadao-ijuiense/
 preview_image: /images/portfolio/cidadao-ijuiense.png
 description: Android App that won the Open Tech Space's Hackathon of ExpoIjuí Fenadi 2016. It allows the user to send requests directly to the Government in order to expedite the service of such occurrences.
