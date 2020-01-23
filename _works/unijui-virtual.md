@@ -16,7 +16,7 @@ images_android:
     id: 10
   - path: /images/portfolio/unijui-biblio-1.jpg
 images_rn:
-  - path: /images/portfolio/unijui-menu.PNG
+  - path: /images/portfolio/unijui-menu.png
     id: 6
   - path: /images/portfolio/unijui-inicio.PNG
     id: 1
