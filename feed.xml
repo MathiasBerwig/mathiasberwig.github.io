@@ -5,8 +5,8 @@
     <description>{&quot;en&quot;=&gt;&quot;Mathias Berwig's personal site&quot;, &quot;pt&quot;=&gt;&quot;Site pessoal de Mathias Berwig&quot;}</description>
     <link>https://mathiasberwig.github.io/</link>
     <atom:link href="https://mathiasberwig.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 06 Apr 2017 12:21:39 +0200</pubDate>
-    <lastBuildDate>Thu, 06 Apr 2017 12:21:39 +0200</lastBuildDate>
+    <pubDate>Thu, 23 Jan 2020 14:18:38 -0300</pubDate>
+    <lastBuildDate>Thu, 23 Jan 2020 14:18:38 -0300</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -17,7 +17,7 @@
 
 &lt;p&gt;As you stayed here until the end, take a look on my &lt;a href=&quot;/about/&quot;&gt;portfolio&lt;/a&gt;. Any constructive feedback will be appreciated :)&lt;/p&gt;
 </description>
-        <pubDate>Fri, 16 Sep 2016 22:00:00 +0200</pubDate>
+        <pubDate>Fri, 16 Sep 2016 17:00:00 -0300</pubDate>
         <link>https://mathiasberwig.github.io/blog/2016-09-15-my-first-post/</link>
         <guid isPermaLink="true">https://mathiasberwig.github.io/blog/2016-09-15-my-first-post/</guid>
         
@@ -47,7 +47,7 @@
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 08 Jan 2016 16:04:23 +0100</pubDate>
+        <pubDate>Fri, 08 Jan 2016 12:04:23 -0300</pubDate>
         <link>https://mathiasberwig.github.io/blog/2016-01-08-welcome-to-jekyll/</link>
         <guid isPermaLink="true">https://mathiasberwig.github.io/blog/2016-01-08-welcome-to-jekyll/</guid>
         

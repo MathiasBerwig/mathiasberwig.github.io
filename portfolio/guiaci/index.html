@@ -8,7 +8,7 @@
   
   <title>
   
-    Inventário Patrimonial
+    GuiACI
   
   </title>
   <meta name="description" content="Mathias Berwig's personal site">
@@ -63,13 +63,13 @@
   <!-- Add page-specific js -->
   
 
-  <link rel="canonical" href="https://mathiasberwig.github.io/portfolio/inventario-patrimonial/">
+  <link rel="canonical" href="https://mathiasberwig.github.io/portfolio/guiaci/">
   <link rel="alternate" type="application/rss+xml" title="Code Sandbox" href="feed.xml">
-  <link rel="alternate" hreflang="en" href="https://mathiasberwig.github.io/portfolio/inventario-patrimonial/" />
+  <link rel="alternate" hreflang="en" href="https://mathiasberwig.github.io/portfolio/guiaci/" />
   
    
   
-  <link rel="alternate" hreflang="pt" href="https://mathiasberwig.github.io/pt/portfolio/inventario-patrimonial/" />
+  <link rel="alternate" hreflang="pt" href="https://mathiasberwig.github.io/pt/portfolio/guiaci/" />
   
 </head>
 
@@ -167,9 +167,9 @@
         <!-- Language Selector -->
           <nav class="navigation--lang">
           
-            <a style="font-weight: bold;" href=" /portfolio/inventario-patrimonial/ ">en</a>  |             
+            <a style="font-weight: bold;" href=" /portfolio/guiaci/ ">en</a>  |             
           
-            <a  href=" /pt/portfolio/inventario-patrimonial/ ">pt</a>             
+            <a  href=" /pt/portfolio/guiaci/ ">pt</a>             
           
           </nav>      
       </div>      
@@ -184,69 +184,80 @@
         <article class="post-container post-container--single">
 
   <header class="post-header">
-    <h1 class="post-title">Inventário Patrimonial</h1>
+    <h1 class="post-title">GuiACI</h1>
   </header>
 
   <section class="post">
-    <p>Realizar o controle de bens patrimoniais de uma instituição de grande porte é uma tarefa difícil que pode ser muito trabalhosa quando não executada com as ferramentas corretas. O aplicativo em questão é parte de um projeto de informatização da Coordenadoria Patrimonial da UNIJUÍ e que tem como objetivo agilizar o processo de levantamento de informações sobre a localização dos pertences da universidade. Neste projeto integrei a equipe de desenvolvimento móvel da instituição por meio do Núcleo de Desenvolvimento de Sistemas, onde todo o trabalho foi coordenado pelo analista do setor.</p>
+    <p>GuiACI is a commercial guide that solves customer relationship issues for ACI (Associação Comercial e Industrial de Ijuí) and is built thinking in which insights business need to obtain from its potential customers as they search for companies or services. The app was idealised as part of a hackathon contest and turned into a startup, as the prize included a vacancy in the incubator that promoted the event.</p>
 
-<h4 id="o-método-antigo">O método antigo</h4>
+<p>The web app can be accessed at <a href="https://guiaci.app">guiaci.app</a>; more info on <a href="https://sobre.guiaci.app">sobre.guiaci.app</a> (Portuguese).</p>
 
-<p>Com uma relação impressa dos objetos presentes em cada espaço físico obtida a partir do sistema, o técnico visita as salas e realiza o cruzamento manual dos registros, verificando quais bens estão no lugar correto e quais foram movidos. Após a coleta de dados, é necessário realizar a inserção dos mesmos no sistema da universidade.</p>
+<h2 id="my-contributions">My Contributions</h2>
 
-<h4 id="a-solução-apresentada">A solução apresentada</h4>
+<p>At the time of the product launch (October, 2019), our team was formed by me, <a href="https://www.linkedin.com/in/matheus-pedro-a3a630130/">Matheus Pedro</a> and <a href="https://www.linkedin.com/in/maiquelbock/">Maiquel Bock</a>. We divided the tasks of design and development, management, and sales, respectively. On December, 2019, we took different paths and I decided to pivot the idea and drive the business by myself.</p>
 
-<p>Para otimizar o processo de coleta de dados foi desenvolvida a aplicação em questão que tem as seguintes características:</p>
+<p>My current assignments are:</p>
+
+<h3 id="management">Management</h3>
+
 <ul>
-  <li>integração total ao sistema da universidade por meio de web services;</li>
-  <li>controle de acesso de usuário a partir de formulário de login;</li>
-  <li>carga de dados para utilização da aplicação offline;</li>
-  <li>módulo de sincronização com suporte à notificações push para atualização de dados;</li>
-  <li>suporte à leitura de código de barras utilizando a câmera do dispositivo.</li>
+  <li>Define platform features aiming to solve real user problems;</li>
+  <li>Architect modules/services and plan it’s development;</li>
+  <li>Think up marketing strategies and promotions for the platform;</li>
+  <li>Manage bureaucracy, deadlines and other company/startup related tasks;</li>
+  <li>Study user behaviours and look for opportunities for monetization.</li>
 </ul>
 
-<p>Dessa forma, após fazer login no aplicativo, é mostrada a lista de prédios da instituição. Nesse momento é possível filtrar os prédios pelo campus ao qual pertencem ou por nome. Após selecionar um prédio, uma lista semelhante é exibida mostrando os espaços (salas) pertencentes a tal prédio. Selecionada a sala, são mostrados os bens ou leituras vinculados à mesma, permitindo ao usuário realizar as leituras de bens, indicando quais estão presentes no espaço em questão. A aplicação também oferece uma busca híbrida (local ou online) de objetos, permitindo ao usuário saber a localização correta de um dado objeto ou encontrar seu cadastro a partir de um código de barras.</p>
+<p><img src="/images/portfolio/guiaci-planning-min.png" alt="Screenshot of app's planning mindmap." /></p>
 
-<p>A proposta utilizando o sistema móvel atingiu seu objetivo, diminuindo consideravelmente o tempo necessário para realizar a coleta de dados.</p>
+<h3 id="design">Design</h3>
 
-<h3 id="capturas-de-tela">Capturas de Tela</h3>
+<ul>
+  <li>Prototype screens and interactions from low fidelity to pixel-perfect designs, mostly using  Adobe XD;</li>
+  <li>Create enjoyable navigation and experiences for different user backgrounds;</li>
+  <li>Run usability tests to evaluate the designs;</li>
+  <li>Find beautiful combinations of colors, shapes and typographies.</li>
+</ul>
+
+<p><img src="/images/portfolio/mockup-guiaci-min.png" alt="Screenshot of app's prototype." /></p>
+
+<h3 id="implementation">Implementation</h3>
+
+<ul>
+  <li>Analyze and understand client needs to propose the implementation of IT solutions;</li>
+  <li>Build the entire API using AWS Services (AppSync, Cognito, DynamoDB, ElasticSearch, S3 and others);</li>
+  <li>Code the web app using React, Redux, Material Design Components (from Google) and integrate with the API.</li>
+</ul>
+
+<p><img src="/images/portfolio/guiaci-code-min.png" alt="Screenshot of app's code." /></p>
+
+<h2 id="launch-video">Launch Video</h2>
+
+<iframe class="iframe-doc" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fapp.guiaci%2Fvideos%2F255374908684831%2F&amp;width=500&amp;show_text=false&amp;height=280&amp;appId" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media" allowfullscreen="true"></iframe>
+
+<h2 id="app-screenshots">App Screenshots</h2>
 
 <p><input type="checkbox" id="pic-1" />
-<label for="pic-1" class="lightbox"><img src="/images/portfolio/inventario-screenshot-1.png" /></label></p>
+<label for="pic-1" class="lightbox"><img src="/images/portfolio/guiaci-interesses-min.gif" /></label></p>
 
 <p><input type="checkbox" id="pic-2" />
-<label for="pic-2" class="lightbox"><img src="/images/portfolio/inventario-screenshot-2.png" /></label></p>
+<label for="pic-2" class="lightbox"><img src="/images/portfolio/guiaci-filtros-min.gif" /></label></p>
 
 <p><input type="checkbox" id="pic-3" />
-<label for="pic-3" class="lightbox"><img src="/images/portfolio/inventario-screenshot-3.png" /></label></p>
+<label for="pic-3" class="lightbox"><img src="/images/portfolio/guiaci-pesquisa-min.gif" /></label></p>
 
 <p><input type="checkbox" id="pic-4" />
-<label for="pic-4" class="lightbox"><img src="/images/portfolio/inventario-screenshot-4.png" /></label></p>
-
-<p><input type="checkbox" id="pic-5" />
-<label for="pic-5" class="lightbox"><img src="/images/portfolio/inventario-screenshot-5.png" /></label></p>
-
-<p><input type="checkbox" id="pic-6" />
-<label for="pic-6" class="lightbox"><img src="/images/portfolio/inventario-screenshot-6.png" /></label></p>
-
-<p><input type="checkbox" id="pic-7" />
-<label for="pic-7" class="lightbox"><img src="/images/portfolio/inventario-screenshot-7.png" /></label></p>
+<label for="pic-4" class="lightbox"><img src="/images/portfolio/guiaci-ligar.gif" /></label></p>
 
 <div class="grid">  
 	
-	<label for="pic-1" class="grid-item"><img src="/images/portfolio/inventario-screenshot-1.png" /></label>
+	<label for="pic-1" class="grid-item"><img src="/images/portfolio/guiaci-interesses-min.gif" /></label>
 	
-	<label for="pic-2" class="grid-item"><img src="/images/portfolio/inventario-screenshot-2.png" /></label>
+	<label for="pic-2" class="grid-item"><img src="/images/portfolio/guiaci-filtros-min.gif" /></label>
 	
-	<label for="pic-3" class="grid-item"><img src="/images/portfolio/inventario-screenshot-3.png" /></label>
+	<label for="pic-3" class="grid-item"><img src="/images/portfolio/guiaci-pesquisa-min.gif" /></label>
 	
-	<label for="pic-4" class="grid-item"><img src="/images/portfolio/inventario-screenshot-4.png" /></label>
-	
-	<label for="pic-5" class="grid-item"><img src="/images/portfolio/inventario-screenshot-5.png" /></label>
-	
-	<label for="pic-6" class="grid-item"><img src="/images/portfolio/inventario-screenshot-6.png" /></label>
-	
-	<label for="pic-7" class="grid-item"><img src="/images/portfolio/inventario-screenshot-7.png" /></label>
+	<label for="pic-4" class="grid-item"><img src="/images/portfolio/guiaci-ligar.gif" /></label>
 	
 </div>
 
